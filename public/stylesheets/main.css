@@ -1,0 +1,92 @@
+h1 {
+    color: red;
+}
+
+.footer {
+    background: rgb(30, 25, 25);
+    height: 200px;
+    text-align: center;
+    vertical-align: bottom;
+    margin: auto;
+    color: rgb(240, 240, 240);
+}
+
+.banner {
+    background-size: cover;
+    width: 100%;
+    height: 500px;    
+}
+
+.landingimage {
+    background: url("https://adesse-images.s3.eu-west-2.amazonaws.com/clouds+576.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /*padding-top: 0%;*/
+    /*padding-bottom: 30%;*/
+}
+
+/*MEDIUM FORMATTING AND BANNERS */
+@media (min-width: 768px) {
+    .landingimage {
+        background: url("https://adesse-images.s3.eu-west-2.amazonaws.com/clouds+768.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        /*padding-top: 0%;*/
+        /*padding-bottom: 30%;*/
+    }
+    
+}
+
+/*LARGE FORMATTING AND BANNERS */
+@media (min-width: 992px) {
+
+    .landingimage {
+        background: url("https://adesse-images.s3.eu-west-2.amazonaws.com/clouds+992.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        /*padding-top: 0%;*/
+        /*padding-bottom: 30%;*/
+    }
+
+}
+
+/*XL FORMATTING AND BANNERS */
+@media (min-width: 1200px) {
+
+    .landingimage {
+        background: url("https://adesse-images.s3.eu-west-2.amazonaws.com/clouds+1200.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        /*padding-top: 0%;*/
+        /*padding-bottom: 30%;*/
+    }
+}
+
+.overlay {
+    /*position: absolute;*/
+    /*left: 0;*/
+    background-size: cover;
+    background: rgba(10, 10, 10, .5);
+    width: 100%;
+    height: 100%;
+    /*padding-top: 0%;*/
+    /*padding-bottom: 10%;*/
+}
+
+.tagline {
+    padding: 5% 20%;
+    /*padding-top: 10%;*/
+    /*padding-left: 20%;*/
+    /*padding-right: 20%;*/
+    text-align: center;
+    color: rgb(225, 225, 225);
+}
+
+.navlist a {
+    color: rgb(240, 240, 240);
+    margin: 10px;
+}
